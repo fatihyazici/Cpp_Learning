@@ -49,31 +49,3 @@ public:
 
 };
 
-//MyClass g_my;
-
-int x;
-
-int main2()
-{
-  //  MyClass(10);
-
-    MyClass myc = MyClass(12);
-
-    std::cout << "main\n";
-}
-
-int main()
-{
-   // MyClass myclass{'A'};
-    MyClass myclass(3L);
-
-  //  MyClass my2{myclass};
-  //  MyClass my3 = my2;
-
-  //  my3 = myclass;
-  //  my3 = std::move(my2);
-  //  MyClass my4 = std::move(my3);    
-}
-
-
-

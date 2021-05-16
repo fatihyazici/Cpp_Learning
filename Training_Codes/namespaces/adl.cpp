@@ -8,10 +8,3 @@ namespace A {
 }
 
 void func(A::Myclass);
-
-int main()
-{
-	A::Myclass ax;
-
-	func(ax); //SENTAKS HATASI , Ambiguity
-}

@@ -1,5 +1,7 @@
 //Question: bir vector'de verilen sayıyı son geçtiği yerde sil.
-//Answer: reverse iterator kullanılarak base'in bir öncesi verilir ve erase işlemi gerçeleştiriir.
+//Answer: 
+//find algoritması ile sayıyı bul(rbegin ve rend)
+//reverse iterator kullanılarak base'in bir öncesi verilir ve erase işlemi gerçeleştiriir.
 
 #include <iostream>
 #include <vector>
@@ -18,7 +20,7 @@ void print(InIter beg, InIter end)
     cout<<"\n---------\n";
 }
 
-
+/*
 int main()
 {
     vector<int> ivec{0,5,4,6,4,7,8,9,4,2,2,3,5,8,9,2,1};
@@ -39,3 +41,4 @@ int main()
 
 
 }
+*/
